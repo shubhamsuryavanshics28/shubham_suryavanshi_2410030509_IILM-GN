@@ -1,19 +1,15 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
-int sum(int x,int y){
-    int add = x + y;
-    return add;
-}
 
 int main(){
-    int a,b;
-    cout<<"enter the first element:";
-    cin>>a;
-    cout<<"enter the second element:";
-    cin>>b;
-    int add=sum(a,b);
-    cout<<add;
+    int num1;
+    int num2;
+    cout<<"enter 1st number: "<<endl;
+    cin>>num1;
+    cout<<"enter 2nd number: "<<endl;
+    cin>>num2;
+    int sum = num1 + num2;
+    cout<<"sum: "<<sum<<endl;
 
     return 0;
 }
